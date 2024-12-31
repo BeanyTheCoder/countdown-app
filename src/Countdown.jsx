@@ -3,7 +3,7 @@ import "./Countdown.css";
 
 export default function Countdown() {
   const calculateTimeLeft = () => {
-    const targetDate = new Date('January 1, 2025 00:00:00').getTime();
+    const targetDate = new Date("January 1, 2025 00:00:00").getTime();
     const currentDate = new Date().getTime();
     const difference = targetDate - currentDate;
 
